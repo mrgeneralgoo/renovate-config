@@ -58,7 +58,9 @@ Docker 浮动标签的 digest 也可能包含破坏性变化；没有可靠功�
 
 ## 验证配置
 
-使用 Node.js 24，最低版本为 24.11.0：
+使用 Node.js 26：
+
+当前锁定的 Renovate 仅声明支持 Node.js 24，尚未声明支持 Node.js 26；安装时会出现 engines 兼容性警告。这里不修改上游声明或关闭兼容性检查。
 
 ```sh
 npm ci --no-audit --no-fund
