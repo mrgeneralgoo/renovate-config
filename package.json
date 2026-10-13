@@ -2,7 +2,7 @@
   "name": "@mrgeneralgoo/renovate-config",
   "private": true,
   "scripts": {
-    "test": "renovate-config-validator --strict --no-global default.json renovate.json"
+    "test": "renovate-config-validator --strict --no-global default.json public.json renovate.json"
   },
   "engines": {
     "node": "^26.0.0"
