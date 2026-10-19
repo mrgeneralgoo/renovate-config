@@ -37,6 +37,15 @@
     {
       "matchCurrentVersion": "/^v?0\\./",
       "automerge": false
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "overrides"
+      ],
+      "rangeStrategy": "bump"
     }
   ],
   "lockFileMaintenance": {
