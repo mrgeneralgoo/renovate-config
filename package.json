@@ -8,6 +8,6 @@
     "node": "^26.0.0"
   },
   "devDependencies": {
-    "renovate": "44.239.1"
+    "renovate": "44.252.6"
   }
 }
